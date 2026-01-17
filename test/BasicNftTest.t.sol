@@ -32,4 +32,6 @@ contract BasicNFTTest is Test {
         assert(basicNft.balanceOf(USER)==1);
         assert(keccak256(abi.encodePacked(PUG)) == keccak256(abi.encodePacked(basicNft.tokenURI(0))));
     }
+
+    
 }

@@ -24,3 +24,6 @@ contract MintBasicNFT is Script {
         vm.stopBroadcast();
     }
 }
+
+
+
